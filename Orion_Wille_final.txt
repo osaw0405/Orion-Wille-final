@@ -1,0 +1,33 @@
+Baseball database. Be able to search database for specific players, teams, positions, and years. 
+Can cross search for more specific results, i.e. 1987 Chicago cubs short stop.
+Displays stats for whatever players the search returns.
+
+Pull in csv's
+
+Menu:
+	Ability to search by player name, year, or both:
+	
+			Get user input
+			
+			Check user input against database:
+				If user input in database:
+					Display stats
+				If multiple players with last name, ask to enter first name too
+					Display stats
+				If not give option to search again or to exit program
+	Ability to search by team, year, or both
+		
+			Get user input
+			
+			Check if user input in database:
+				If user  input in database:
+					Display stats
+				Give option to search again or to exit program
+	Exit program
+	
+	
+	
+
+
+
+	
