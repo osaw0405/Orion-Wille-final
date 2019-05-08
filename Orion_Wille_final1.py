@@ -12,6 +12,8 @@ Created on Sun Apr 28 11:17:40 2019
 '''
 
 import pandas as pd
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 #get spreadsheets as dataframes
 player_key_location = r"name key.csv"
