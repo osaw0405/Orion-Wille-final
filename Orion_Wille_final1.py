@@ -262,7 +262,7 @@ def player_search():
             batting_output = player_and_year[['name', 'year', 'team', 'G', 'AB', 'R', 'H', '2B','3B', 'HR',	'RBI']]
             #if no results found ask for new input
             while player_and_year.empty:
-                user_year = input("No results found in database, please enter a year between 1871 and 2018, or press ENTER to return to menu: ")                
+                user_year = input("No results found in database, player did not player in the entered year, please enter another year or press ENTER to return to menu: ")                
                 #input validation
                 digit_flag = False
                 while digit_flag == False:        
@@ -357,7 +357,7 @@ def team_search():
             batting_output = team_and_year[['name', 'year', 'G', 'AB', 'R', 'H', '2B', '3B', 'HR', 'RBI']]
             #if no results found, ask for new input
             while team_and_year.empty:
-                user_year = input("No results found in database, please enter a year between 1871 and 2018, or press ENTER to return to menu: ")                
+                user_year = input("No results found in database, team was not active during the entered year, please enter another year or press ENTER to return to menu: ")                
                 #input validation
                 digit_flag = False
                 while digit_flag == False:        
