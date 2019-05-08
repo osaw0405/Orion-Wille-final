@@ -24,6 +24,10 @@ Menu:
 					Display stats
 				Give option to search again or to exit program
 	Exit program
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+I used a bunch of sources to learn pandas, chiefly the pandas 0.24.2 documentation user guide
 	
 	
 	
