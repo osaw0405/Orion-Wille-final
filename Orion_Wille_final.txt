@@ -1,5 +1,5 @@
-Baseball database. Be able to search database for specific players, teams, positions, and years. 
-Can cross search for more specific results, i.e. 1987 Chicago cubs short stop.
+Baseball database. Be able to search database for specific players, teams, and years. 
+Can cross search for more specific results, e.g. 1987 Pittsbugh Pirates.
 Displays stats for whatever players the search returns.
 
 Pull in csv
